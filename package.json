@@ -1,0 +1,26 @@
+{
+  "name": "furniture-server",
+  "version": "1.0.0",
+  "description": "Furniture-server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnashrullah/Furniture-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "mysql": "^2.15.0"
+  },
+  "bugs": {
+    "url": "https://github.com/mnashrullah/Furniture-server/issues"
+  },
+  "homepage": "https://github.com/mnashrullah/Furniture-server#readme"
+}
