@@ -1,6 +1,6 @@
 # Furniture-server
 
-check [client](https://github.com/mnashrullah/furniture-client)
+Check [client](https://github.com/mnashrullah/furniture-client)
 
 ### Installation
 
