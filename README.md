@@ -1,17 +1,28 @@
-Furniture-server
-check client here https://github.com/mnashrullah/furniture-client
+# Furniture-server
 
-install package
-npm install
+check [client](https://github.com/mnashrullah/furniture-client)
 
-you can run project using nodejs.
-node server.js
+### Installation
 
-or using nodemon
+Need [Node.js](https://nodejs.org/) to run.
 
+Install the dependencies and start the server.
+
+```sh
+$ npm install
+```
+
+run server using Node.js
+```sh
+$ node server.js
+```
+
+alternative you can use [Nodemon](https://www.npmjs.com/package/nodemon) 
 install nodemon
-npm install -g nodemon
-
-running nodemon
-nodemon
-
+```sh
+$ npm install -g nodemon
+```
+running server using nodemon
+```
+$ nodemon
+```
