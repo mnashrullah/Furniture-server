@@ -1,1 +1,2 @@
 Furniture-server
+npm install
