@@ -14,6 +14,10 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 var furniture = require('../model/furniture.js');
 
+app.get('', function (req, res) {
+    res.send('Hallo, server is running.');
+});
+
 app.get('/api/category/:catid/furniture', function (req, res) {
     var catid = req.params.catid;
     furniture.getFurnitureByCat(catid, function (err, result) {
